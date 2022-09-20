@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-include <stdio.h>
+#include <stdio.h>
 
 /**
  * Description: Prints a random number and states whether it is positive,
