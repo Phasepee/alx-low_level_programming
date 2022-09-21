@@ -5,7 +5,6 @@
  *	ranging from 0-99, separated by a comma followed by a space.
  *
  * Return: 0 if successful, non-zero otherwise.
- * Return: Always 0.
  */
 int main(void)
 {
@@ -30,6 +29,5 @@ int main(void)
 	}
 
 	putchar('\n');
-
 	return (0);
 }
