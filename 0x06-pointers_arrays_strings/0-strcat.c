@@ -1,30 +1,24 @@
 #include "main.h"
 #include <stdio>
 
-/*
- * File: 1-memcpy.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
-
 /**
- * _memcpy - Copies @n bytes from the memory area pointed
- *           to by @src into that pointed to by @dest.
- * @dest: A pointer to the memory area to copy @src into.
- * @src: The source buffer to copy characters from.
- * @n: The number of bytes to copy from @src.
- *
- * Return: A pointer to the destination buffer @dest.
- */
-void *_memcpy(void *dest, const void *src, size_t n)
+ * _strcat - concatenates the string pointed to by @src
+ *      to the end of the string pointed to by @dest
+ * @dest: String that will be apended
+ * @src: String to be concatenanted upon
+ *
+ * Return: returns poiner to @dest
+ */
+
+char *_strcat(char *dest, char *src)
 {
-	unsigned int index;
-	unsigned char *destination = dest;
-	const unsigned char *source = src;
+        int index = 0, dest_len = 0;
 
-	for (index = 0; index < n; index++)
-		destination[index] = source[index];
+        while (dest[index++])
+                dest_len++;
 
-	return (dest);
+        for (index = 0; src[index]; index++)
+                dest[dest_len++] = src[index];
+
+        return (dest);
 }
