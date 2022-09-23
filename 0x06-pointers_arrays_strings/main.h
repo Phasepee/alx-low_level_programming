@@ -1,13 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+#include <stdio.h>
 
 /**
- *
  * File: main.h
- * Auth: sam tech(Samuel birhanu)
  * Desc: Header file containing prototype for all functions used in
- *	the 0x06-pointers_arrays_strings directory.
+ *	the 0x0i6-pointers_arrays_strings directory.
  */
 
 int _putchar(char c);
@@ -37,4 +35,4 @@ char *infinite_add(char *n1, char *2, char *r, int size_r);
 void print_buffer(char *b, int size);
 
 
-#endif
+#endif /*MAIN_H*/
