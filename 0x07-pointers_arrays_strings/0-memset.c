@@ -3,7 +3,7 @@
  * Auth: Brennan D Baraban
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _memset - Fills the first n bytes of the memory area
