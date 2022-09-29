@@ -1,7 +1,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-/**
+/**::
  * File: main.h
  * Auth: Brennan D Baraban
  * Desc: Header file containing prototypes for all functions
