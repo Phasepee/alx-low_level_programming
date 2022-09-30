@@ -1,5 +1,6 @@
 /*
  * File: 1-args.c
+ * Auth: Phasepee
  */
 
 #include <stdio.h>
