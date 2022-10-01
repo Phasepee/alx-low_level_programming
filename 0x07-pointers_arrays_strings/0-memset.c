@@ -8,6 +8,7 @@
 /**
  * _memset - Fills the first n bytes of the memory area
  *           pointed to by s with the constant byte b.
+ * Description: description
  * @s: The memory area to be filled.
  * @b: The character to fill the memory area.
  * @n: The number of bytes to be filled.
